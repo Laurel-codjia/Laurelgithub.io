@@ -1,0 +1,924 @@
+html{
+    width: 1366px;
+}
+
+body {
+    margin: 0 ;
+    padding: 0 ;
+    max-width: 1366px ;
+    height: 768px ;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+
+
+
+
+/***Section numéro 1***/
+body .top{
+    background: #3A5D4F;
+    height:  80%;
+    box-shadow: 0 0 8px black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    
+}
+.meubles{
+    position: relative;
+    left: 8%;
+    color: white;
+    font-size: 120%;
+}
+.header .menushop{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin: 1%;
+    width: 50%;
+    position: relative;
+    left: 10%;
+    
+}
+.menushop a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 105%;
+}
+.menushop a:hover{
+    padding-bottom: 6px;
+    border-bottom: 5px solid #EFC44F;
+    letter-spacing: 1px;
+    
+    
+}
+.shop {
+    position: relative;
+    right: 5%;
+    top: 12px;
+}
+.present{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 180%;
+    
+}
+.present .name{
+    position: relative;
+    left: 8%;
+    font-size: 180%;
+    width: 100;
+}
+#sofa{
+    width: 55%;
+    position: relative;
+    top: 45px;
+    height: 50%;
+    
+}
+.name h1{
+    font-size: 80%;
+    color: white;
+}
+.name p{
+    font-size: 40%;
+    color: whitesmoke;
+}
+.btn{
+    background: transparent ;
+    color: whitesmoke;
+    padding: 4% 10%;
+    border: whitesmoke 1px solid;
+    border-radius: 20px;
+    
+}
+.btn:hover{
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+
+}
+.btna{
+    background: #EFC44F;
+    color: black;
+    padding: 4% 10%;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+.btna:hover{
+    background: white;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+/**Section numéro 2- Boutique***/
+.products h1{
+    position: relative;
+    color: #3A5D4F;
+    z-index: 1;
+    bottom: 160px;
+    font-size: 30px;
+    left: 45%;
+    text-shadow: 1px 1px 1px gray;
+
+}
+.products{
+    top: 15%;
+    bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 280px;
+    margin-bottom: 300px;
+    height: 50%;
+    
+}
+.proin{
+    position: relative;
+    top: 16%;
+    width: 25%;
+    font-size: 19px;
+    right: 2%;
+    
+    
+}
+.products .proprice{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    position: relative;
+    left: 8%;
+    width: 50%;
+    justify-content: space-between;
+    position: relative;
+    top: 30%;
+    
+}
+.products .chair{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.products .chair5 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.chair5 h4{
+    padding-top: 12px;
+}
+.chair5 h3{
+    position: relative;
+    bottom: 22px;
+}
+.chair h4{
+    margin: 10px;
+}
+.chair h3{
+    margin: 5px;
+}
+#chairone{
+    width: 110%;
+}
+#chairone2 {
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+#chairtwo{
+    width: 130%;
+    position: relative;
+    bottom: 5px;
+}
+.products .chairnor {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center ;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.chairnor h4{
+    position: relative;
+    bottom: 54px;
+}
+.chairnor h3{
+    position: relative;
+    bottom: 76px;
+}
+.products .proin .btnp {
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    border: whitesmoke 1px solid;
+    border-radius: 20px;
+    
+}
+
+/**** Section numéro 3 pourquoi nous choisir***/
+.About{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    gap: 100px;
+    padding-top: 100px;
+    position: relative;
+    top: 100px;
+    
+    
+}
+
+
+.aboutin{
+    width: 45%;
+    height: 75% ;
+    font-size: 20px;
+    justify-content: center ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 35px;
+    right: 3%;
+}
+.aboutin p{
+    font-size: 16px;
+}
+.aboutin h2{
+    position: relative;
+    bottom: 100px;
+    left: 73%;
+    color: #3A5D4F;
+    text-shadow: 1px 1px 1px gray;
+    
+}
+.asset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    
+}
+.asset .asset1{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.asset2{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+.asset1:After{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #3A5D4F;
+    position: absolute;
+    bottom: 50%;
+}
+
+.asset2:After {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #3A5D4F;
+    position: absolute;
+    bottom: 10%;
+    right: 95%;
+}
+.asset2:before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #3A5D4F;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+.asset:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #3A5D4F;
+    position: absolute;
+    left: 45%;
+    top: 43%;
+}
+
+
+#pic{
+    width: 27%;
+    border-radius: 13px;
+    height: 80%;
+    position: relative;
+    top: 5px;
+    
+}
+
+ .asset1:before {
+     content: "";
+     background: #EFC44F;
+     width: 30%;
+     height: 37%;
+     position: absolute;
+     bottom: 68%;
+     left : 112%;
+     border: 3px solid white;
+     
+ }
+        
+
+/** Section numéro 4 --Services **/
+.deco{
+    margin-top: 250px;
+    display: flex ;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center ;
+    position: relative;
+    padding: 2%;
+    
+
+}
+.deco h1 {
+    position: relative;
+    color: #3A5D4F;
+    left: 42%;
+    z-index: 1;
+    bottom: 360px;
+    font-size: 31px;
+    margin-bottom: 120px;
+    text-shadow: 1px 1px 1px gray;
+
+}
+.decosample {
+    width: 55%;
+    justify-content: center;
+    position: relative;
+    font-size: 18px;
+    
+}
+ .decosample:before{
+     content: "";
+     background: #3A5D4F ;
+    width: 25%;
+     height: 23%;
+     position: absolute;
+     bottom: 83%;
+     right: 85%;
+     border: 3px solid white;
+     
+ }
+.deco1{
+    position: relative;
+    width: 48%;
+    height: 387px;
+    border-radius: 12px;
+    top: 20px;
+
+}
+.deco2{
+    position: relative;
+    width: 25%;
+    height: 35%;
+    bottom: 200px;
+    left: 1%;
+    border-radius: 12px;
+}
+.deco3{
+    position: relative;
+    bottom: 180px;
+    left: 35%;
+    width: 40%;
+    height: 300px;
+    border-radius: 12px;
+}
+.decoin{
+    position: relative;
+    width: 380px;
+    bottom: 150px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center ;
+    right: 70px;
+    
+}
+.liste{
+    display: flex;
+    gap: 30px;
+    left: 5px;
+    position: relative;
+}
+ul{
+    display: block;
+    justify-content: space-around;
+    align-items: center ;
+    right: 10%;
+    padding-left: 5px;
+    padding-right: 10px;
+    list-style-type: square;
+    
+}
+ul li{
+    margin-bottom: 10px;
+}
+.decoin .btnp {
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    border: whitesmoke 1px solid;
+    border-radius: 20px;
+    
+}
+ .details{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    justify-items: center ;
+    align-items: center;
+    justify-content: center;
+    bottom: 200px;
+    padding: 20px;
+    margin: 3px 20px;
+}
+.decor{
+    height: 600px;
+    margin-bottom: 200px;
+
+
+}
+.tails{
+ display: flex;
+ flex-direction: row ;
+ bottom: 240px;
+ position: relative;
+ justify-content: center ;
+ width: 90%;
+ left: 5%;
+ 
+ 
+}
+.tails #chairone{
+    width: 30%;
+}
+#chairone1{
+    width: 30%;
+    border-radius: 8px;
+    
+}
+.tails #chairtwo {
+    width: 40%;
+    position: relative;
+    top: 8px;
+}
+.tails .info{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 120%;
+    font-size: 12px;
+}
+.info h4{
+    margin: 0;
+    font-weight: 400;
+}
+.info p{
+    margin: 0;
+}
+
+
+/*** Section numéro 5--- Témoignages***/
+
+.testimony{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 80px;
+
+
+}
+.testimony h1{
+    color: #3A5D4F;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px gray;
+
+}
+.testimony p{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    font-size: 15px;
+    
+}
+.testimony h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    position: relative;
+    bottom: 12px;
+}
+.people{
+    display: flex;
+}
+.people .circle1{
+    width: 50px;
+    height: 50px;
+    background: #D2DBD6;
+    position: relative;
+    right: 245px;
+    border-radius: 50%;
+    top: px;
+}
+.people .barre1{
+    width: 3px;
+    height: 20px;
+    background: black;
+    position: relative;
+    right: 275px;
+    top: 10px;
+    transform: rotate(59deg);
+    
+}
+.people .barre{
+    width: 3px;
+    height: 20px;
+    background: black;
+    position: relative;
+    right: 278px;
+    top: 20px;
+    transform: rotate(115deg);
+}
+
+.people .barre2 {
+    width: 3px;
+    height: 20px;
+    background: black;
+    position: relative;
+    left: 243px;
+    top: 10px;
+    transform: rotate(120deg);
+    z-index: 2;
+}
+
+.people .barre3 {
+    width: 3px;
+    height: 20px;
+    background: black;
+    position: relative;
+    left: 240px;
+    top: 20px;
+    transform: rotate(245deg);
+    z-index: 1;
+}
+
+.people .circle2 {
+    width: 50px;
+    height: 50px;
+    background: #D2DBD6;
+    position: relative;
+    left: 213px;
+    border-radius: 50%;
+    
+}
+
+    
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+    top: 30px;
+}
+.photo h5{
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+}
+#Jones{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.testimony .point{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    top: 55px;
+    
+}
+#point1{
+    width: 10px;
+    height: 10px;
+    background: #D2DBD6;
+    border-radius: 50%;
+}
+#point2{
+    width: 10px;
+    height: 10px;
+    background: #D2DBD6;
+    border-radius: 50%;
+
+}
+#point3{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+
+}
+
+
+/*** section numéro 6--Blogs recents***/
+
+.Blog{
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    padding-top: 70px;
+}
+
+.Blog1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.Blog .Blog1 a{
+    color: black;
+    font-weight: 600;
+}
+.Blog2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+
+    
+}
+.Blogpic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Blogpic h4 {
+    position: relative;
+    margin-bottom: 0;
+
+}
+.Blogpic p{
+    position: relative;
+    margin-top: 8px;
+    right: 4%;
+    
+}
+.Blogpic .pic1{
+    width: 120%;
+    height: 200px;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+.Blogpic .pic2{
+    border-radius: 20px;
+    height: 200px;
+    margin-left: 10%;
+    position: relative;
+    left: 2%;
+
+
+}
+.Blogpic .pic3{
+    border-radius: 20px;
+    padding-left: 1%;
+    height: 200px;
+    position: relative;
+    left: 1%;
+}
+
+/**** section numéro 6--- Contactez-nous***/
+.Contact{
+    background: #D9DCE3;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2% 7%;
+    color: #3A5D4F ;
+    gap: 10px;
+    margin: 0 0;
+    height: 250px;
+    position: relative;
+    bottom: 4%;
+}
+.Contact h1{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+}
+.contact1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    
+}
+.contact1 input{
+    width: 40%;
+    height: 45px;
+    background: transparent;
+    border-radius: 12px;
+    border: white 2px solid;
+    color: black;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-left: 2%;
+}
+
+
+.contact1 button{
+    width: 15%;
+    height: 55px;
+    font-size: 200%;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #3A5D4F;
+    border-radius: 12px;
+    color: white;
+    position: relative;
+    left: 97%;
+    bottom: 50%;
+    
+}
+.contact1 button:hover{
+    width: 16%;
+    height: 55px;
+    
+}
+
+.contform{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 2%;
+
+}
+
+ .Contpic{
+    width: 45%;
+    position: relative;
+    bottom: 400px;
+    left: 12%;
+    
+
+}
+.last {
+    background: #D9DCE3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    position: relative;
+    bottom: 5%;
+    height: 200px;
+    font-size: 15px;
+
+   }
+   .last a{
+       text-decoration: none;
+       color: black;
+   }
+   .last .last1{
+       width: 35%;
+       font-size: 15px;
+       position: relative;
+       padding-top: 2%;
+       right: 1%;
+   }
+   
+   .last .last1 p{
+       height: 100px;
+       justify-content: space-around;
+       
+    }
+      .last1 .media{
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+    }
+    .last .last1 i{
+        background: whitesmoke ;
+        font-size: 20px ;
+        padding: 2% 2%;
+        border-radius: 50%;
+        color: #3A5D4F;
+        
+
+ }
+
+   
+ .last .last2{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     grid-gap: 6px;
+     position: relative;
+     bottom: 4%;
+
+ }
+  .last .last3{
+     display: flex;
+     flex-direction: column;
+     grid-gap: 8px;
+     justify-content: space-evenly;
+     position: relative;
+     bottom: 8%;
+
+   }  
+  .last .last4{
+     display: flex;
+     flex-direction: column;
+     grid-gap: 8px;
+     position: relative;
+     top: 3%;
+     
+ }
+  .last .last5{
+     display: flex;
+     flex-direction: column;
+     grid-gap: 8px;
+     position: relative;
+     bottom: 8%;
+
+ }
+ 
+ 
+ /*** Footer***/
+ .footer {
+     background: #D9DCE3 ;
+     display: flex;
+     flex-direction: column;
+     align-items: center ;
+     position: relative;
+     height: 19%;
+     padding-top: 5%;
+     bottom: 5%;
+ }
+ 
+ .footer .line{
+     width: 86%;
+     height: 1px;
+     background: black;
+     position: relative;
+     bottom: 10%;
+ }
+ 
+ .footer .auteur {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ .auteur .aut1{
+     position: relative;
+     right: 16%;
+     top: 20%;
+     
+ }
+ .auteur .aut2{
+     display: flex;
+     gap: 20px;
+     position: relative;
+     bottom: 5%;
+     left: 11%;
+     
+ }
